@@ -1,15 +1,3 @@
-import React from 'react'
-
-const layout = ({children}) => {
-  return (
-
-    <>
-
-    <h1>Header</h1>
-    <div>{children}</div>
-    </>
-
-  )
+export default function ContactLayout({ children }) {
+  return <div className="bg-white">{children}</div>;
 }
-
-export default layout
