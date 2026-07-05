@@ -6,6 +6,8 @@ const navLinks = [
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
   { name: "Users", href: "/user" },
+  { name: "Sign In", href: "/sign-in" },
+  { name: "Sign Up", href: "/sign-up" },
 ];
 
 export const metadata = {
